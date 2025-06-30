@@ -160,3 +160,8 @@ a {
     line-height: 50px;
   }
 }
+
+
+body {
+  background-color: transparent; /* force update */
+}
