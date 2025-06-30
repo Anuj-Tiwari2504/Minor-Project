@@ -126,9 +126,6 @@ a {
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
-
-
-
 @media (max-width: 768px) {
   .sidebar_menu {
     width: 80%;
