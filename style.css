@@ -126,3 +126,40 @@ a {
 #check:checked ~ .sidebar_menu .btn_two i {
     opacity: 1;
 }
+
+
+
+@media (max-width: 768px) {
+  .sidebar_menu {
+    width: 80%;
+  }
+
+  .sidebar_menu .btn_two i {
+    left: calc(80% - 25px);
+  }
+
+  .sidebar_menu .logo a {
+    font-size: 18px;
+    left: 30px;
+  }
+
+  .sidebar_menu .menu i,
+  .sidebar_menu .menu a {
+    font-size: 18px;
+  }
+
+  .sidebar_menu .social_media {
+    left: 20%;
+    bottom: 20px;
+  }
+
+  .sidebar_menu .social_media i {
+    font-size: 18px;
+  }
+
+  .btn_one i {
+    font-size: 24px;
+    left: 12px;
+    line-height: 50px;
+  }
+}
